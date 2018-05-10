@@ -11,9 +11,9 @@ Common changes include choosing a different root directory and port.
 Authentication, like in manta, operates on ssh key signed messages.
 Unlike in manta, there's no Triton SDC to reference here.
 
-The keys that sign the message need to be in ~~/keys/<fingerprint> in manta 
+The keys that sign the message need to be in `~~/keys/<fingerprint>` in manta 
 terms.  In local filesystem terms, that's the 
-<root directory from config.json>/<username>/keys/<fingerprint> 
+`<root directory from config.json>/<username>/keys/<fingerprint>` 
 file.
 
 The filename should be the fingerprint of the key, and contain the full ssh 
